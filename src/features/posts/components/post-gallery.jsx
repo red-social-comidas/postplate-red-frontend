@@ -111,7 +111,7 @@ export const PostGallery = ({ files }) => {
 			)}
 
 			<Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter" centered size="lg">
-				<Modal.Header closeButton>#TODO: Modal Header</Modal.Header>
+				<Modal.Header closeButton></Modal.Header>
 				<Modal.Body>
 					<Carousel activeIndex={carouselIdx} onSelect={handleSelect}>
 						{files.map((file, idx) => (
@@ -123,7 +123,7 @@ export const PostGallery = ({ files }) => {
 						))}
 					</Carousel>
 				</Modal.Body>
-				<Modal.Footer>#TODO: Modal Footer</Modal.Footer>
+				<Modal.Footer></Modal.Footer>
 			</Modal>
 		</>
 	);
