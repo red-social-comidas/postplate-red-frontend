@@ -1,0 +1,29 @@
+/* --------------------FUENTES--------------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* --------------------FUENTES--------------- */
+
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
+/* Estilos para la scrollbar */
+::-webkit-scrollbar {
+	width: 12px; /* Ancho de la scrollbar */
+}
+
+/* Estilo para la pista de la scrollbar */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; /* Color de fondo de la pista */
+	border-radius: 10px; /* Radio del borde */
+}
+/* Estilo para el "pulgar" (la parte que se arrastra) */
+::-webkit-scrollbar-thumb {
+	background-color: #ff6b19; /* Color del pulgar */
+	border-radius: 10px; /* Radio del borde */
+	border: 3px solid #f1f1f1; /* Borde alrededor del pulgar */
+}
+/* Estilo para el "pulgar" cuando está activo (al arrastrar) */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; /* Color del pulgar cuando se pasa el ratón */
+}
+a {
+	text-decoration: none;
+}

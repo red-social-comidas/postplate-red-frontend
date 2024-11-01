@@ -1,0 +1,85 @@
+.container-hero {
+	background-color: #ff7a45;
+	background: url("../../multimedia/generales/fondo-landing.png");
+	height: 100vh;
+	width: 100vw;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.container-hero form {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-60%);
+	left: 10%;
+	width: max-content;
+}
+.container-hero form h1 {
+	font-size: 4rem;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	position: absolute;
+}
+.container-hero form h2 {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: italic;
+}
+.container-hero form input {
+	width: 80%;
+	height: 70px;
+	border-radius: 10px;
+}
+.container-hero form button {
+	position: relative;
+	left: -10%;
+	background-color: #f55a0c;
+	color: white;
+	border-radius: 10px;
+	height: 40px;
+	width: max-content;
+}
+.pngs-landing {
+	position: absolute;
+}
+.plato-grande {
+	height: 61vh;
+	right: 0;
+	top: 50vh;
+	transform: translateY(-50%);
+}
+.plato-chico {
+	width: 51vh;
+	right: 40vw;
+	top: 0;
+	transform: translateY(-50%);
+}
+.servilleta {
+	top: -30vh;
+	right: 0;
+	width: 51vh;
+}
+.cebollin {
+	left: 0;
+	bottom: 0;
+	height: 41vh;
+}
+.burger {
+	right: 40vh;
+	bottom: -16vh;
+	width: 38vh;
+}
+.hoja-derecha {
+	right: 30vh;
+	bottom: 10vh;
+	width: 7vh;
+}
+.hoja-izquierda {
+	right: 63vh;
+	bottom: 29vh;
+	width: 7vh;
+}

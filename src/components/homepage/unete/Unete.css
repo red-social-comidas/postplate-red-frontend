@@ -1,0 +1,32 @@
+.container-unete {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container-unete article {
+	width: 80%;
+	height: 80%;
+	display: flex;
+	overflow: hidden;
+	box-shadow: 0 0 20px 10px grey;
+	border-radius: 20px;
+}
+.container-unete article img {
+	height: 100%;
+	width: auto;
+}
+.container-unete article img:hover {
+	scale: 1.1;
+	transition: 1s ease-in-out;
+}
+.container-unete .tarjeta {
+	flex: 1;
+	height: 100% !important;
+	border-radius: initial !important;
+	z-index: 1000;
+}
+.tarjeta-unete {
+	height: 100% !important;
+}

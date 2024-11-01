@@ -1,0 +1,18 @@
+.container-tarjetas {
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.hover-tarjetas:hover {
+	scale: 1.1;
+	transition: 1s;
+}
+.links-tarjeta {
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 4%;
+	font-size: 1.1rem;
+}

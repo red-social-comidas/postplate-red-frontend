@@ -1,0 +1,22 @@
+header {
+  height: 8vh;
+  width: 100vw;
+  z-index: 100000;
+}
+.navbar-header {
+  height: 100%;
+ 
+}
+.LAYOUT {
+  height: auto;
+  width: 100vw;
+  overflow-x: hidden;
+}
+#LOGO-NAME{
+  display: flex;
+  flex-direction: column;
+}
+#slogan-logo-name{
+  font-size: 0.6rem;
+  color: orangered;
+}

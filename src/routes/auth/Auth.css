@@ -1,0 +1,56 @@
+.container-auth {
+	background: url("../../multimedia/generales/fondo-landing.png");
+	position: relative !important;
+}
+.platoG-registro {
+	top: 10vh;
+	left: 5vw;
+}
+.platoC-registro {
+	position: absolute;
+	right: 0;
+}
+.img-auth-login {
+	position: absolute;
+	z-index: 4000;
+}
+.img-auth-login.hoja-chica {
+	top: 4vh;
+	height: 6vh;
+}
+.img-auth-login.hoja-grande {
+	top: 30vh;
+	left: 25vw;
+	height: 6vh;
+}
+.img-auth-login.cebollin {
+	top: 0;
+	left: -40px;
+	transform: rotate(70deg);
+}
+.img-auth-login.p-chico {
+	left: 0;
+	bottom: 0;
+}
+.img-auth-login.home {
+	top: 10px;
+	left: 10px;
+}
+.form-iniciar-sesion {
+	z-index: 5000;
+}
+.parrafo-auth {
+	color: orangered;
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		"Open Sans",
+		"Helvetica Neue",
+		sans-serif;
+}
