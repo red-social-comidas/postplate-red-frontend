@@ -28,7 +28,7 @@ export const PostItem = ({ post }) => {
 				</Row>
 			</CardHeader>
 			<Card.Body role="button">
-				<Card.Text>{post.content}</Card.Text>
+				<Card.Text as="pre">{post.content}</Card.Text>
 				<PostGallery files={post.files_set} />
 			</Card.Body>
 			<Card.Footer>
