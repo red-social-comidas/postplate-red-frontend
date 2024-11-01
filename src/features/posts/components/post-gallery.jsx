@@ -113,7 +113,7 @@ export const PostGallery = ({ files }) => {
 			<Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter" centered size="lg">
 				<Modal.Header closeButton></Modal.Header>
 				<Modal.Body>
-					<Carousel activeIndex={carouselIdx} onSelect={handleSelect}>
+					<Carousel activeIndex={carouselIdx} onSelect={handleSelect} data-bs-theme="dark">
 						{files.map((file, idx) => (
 							<Carousel.Item key={idx}>
 								<Ratio aspectRatio="16x9">
